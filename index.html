@@ -38,15 +38,30 @@ footer{text-align:center;padding:20px;color:#9CA3AF;font-size:.82em;border-top:1
 </head>
 <body>
 <header>
-  <div class="nav">
-    <a href="/" class="brand">✨ 思思好物 <span>评测</span></a>
-    <a href="https://wxy0000058.github.io/3c-digital/">💻 数码</a>
-    <a href="https://wxy0000058.github.io/home-life/">🛋️ 家居</a>
-    <a href="https://wxy0000058.github.io/beauty-care/">💄 美妆</a>
-    <a href="https://wxy0000058.github.io/sports-outdoor/">⚽ 运动</a>
-    <a href="https://wxy0000058.github.io/mom-baby/">👶 母婴</a>
+  <div class="nav" style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;max-width:1100px;margin:0 auto;padding:0 16px">
+    <a href="/" class="brand" style="font-weight:800;font-size:17px;color:#fff;margin-right:6px;white-space:nowrap">✨ 思思好物</a>
+    <a href="https://wxy0000058.github.io/3c-digital/" style="color:rgba(255,255,255,.85);font-size:15px;padding:4px 7px;border-radius:6px;text-decoration:none">💻 数码</a>
+    <a href="https://wxy0000058.github.io/home-life/" style="color:rgba(255,255,255,.85);font-size:15px;padding:4px 7px;border-radius:6px;text-decoration:none">🛋️ 家居</a>
+    <a href="https://wxy0000058.github.io/beauty-care/" style="color:rgba(255,255,255,.85);font-size:15px;padding:4px 7px;border-radius:6px;text-decoration:none">💄 美妆</a>
+    <a href="https://wxy0000058.github.io/sports-outdoor/" style="color:rgba(255,255,255,.85);font-size:15px;padding:4px 7px;border-radius:6px;text-decoration:none">⚽ 运动</a>
+    <a href="https://wxy0000058.github.io/mom-baby/" style="color:rgba(255,255,255,.85);font-size:15px;padding:4px 7px;border-radius:6px;text-decoration:none">👶 母婴</a>
+    <div style="flex:1;min-width:60px;text-align:right">
+      <input id="sbox" type="text" placeholder="搜索文章..." style="max-width:180px;width:100%;padding:4px 10px;border-radius:6px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.12);color:#fff;font-size:12px;outline:none;font-family:inherit" oninput="searchFilter(this.value)">
+    </div>
+    <style>
+    #sbox::placeholder{color:rgba(255,255,255,.45)}
+    header a:hover{background:rgba(255,255,255,.15)!important}
+    @media(max-width:640px){
+      header .nav a{font-size:12px!important;padding:2px 4px!important}
+      .brand{font-size:14px!important}
+      #sbox{max-width:120px!important;font-size:11px!important}
+    }
+    </style>
   </div>
 </header>
+
+
+
 <div class="container">
   <div class="hero">
     <div class="review-badge">🛡️ 本评测基于真实购买体验</div>
@@ -96,19 +111,19 @@ footer{text-align:center;padding:20px;color:#9CA3AF;font-size:.82em;border-top:1
     <div class="card-meta"><span>测评</span><span>·</span><span>3C数码</span></div>
   </div>
 </div><div class="post-card">
-  <div class="card-img"><img src="https://images.unsplash.com/photo-1590658268037-6bf12f032f35?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">热评</span><span class="cat-tag">3C数码</span></div>
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">热评</span><span class="cat-tag">3C数码</span></div>
   <div class="card-body">
     <h3><a href="posts/batch-01-2026年500元以内真无线耳机推荐-学.html">2026年500元以内真无线耳机推荐：学生党首选</a></h3>
     <div class="card-meta"><span>热评</span><span>·</span><span>3C数码</span></div>
   </div>
 </div><div class="post-card">
-  <div class="card-img"><img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1b4b?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">热评</span><span class="cat-tag">3C数码</span></div>
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">热评</span><span class="cat-tag">3C数码</span></div>
   <div class="card-body">
     <h3><a href="posts/batch-02-switch2-vs-steamdeck.html">Switch2 vs SteamDeck2：2026年掌机选购对比</a></h3>
     <div class="card-meta"><span>热评</span><span>·</span><span>3C数码</span></div>
   </div>
 </div><div class="post-card">
-  <div class="card-img"><img src="https://images.unsplash.com/photo-1609592424814-9de35c2dc7f1?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">热评</span><span class="cat-tag">3C数码</span></div>
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">热评</span><span class="cat-tag">3C数码</span></div>
   <div class="card-body">
     <h3><a href="posts/batch-03-2026年充电宝推荐-大容量-快充-便携.html">2026年充电宝推荐：大容量/快充/便携全场景，倍思/小米/罗马仕/绿联横向测评</a></h3>
     <div class="card-meta"><span>热评</span><span>·</span><span>3C数码</span></div>
@@ -133,6 +148,16 @@ footer{text-align:center;padding:20px;color:#9CA3AF;font-size:.82em;border-top:1
   </div>
 </div></div>
 </div>
+<script>
+
+).textContent||'';c.style.display=(!q||t.toLowerCase().indexOf(q)>-1)?'':'none'});var v=document.querySelectorAll('.post-card:not([style*="display: none"])').length;if(!q)v=document.querySelectorAll('.post-card').length;var nr=document.getElementById('nores');if(!nr){nr=document.createElement('p');nr.id='nores';nr.style.cssText='text-align:center;color:#9CA3AF;padding:40px 0;font-size:.9em';document.querySelector('.post-list').after(nr)}nr.textContent='😅 没有找到「'+q+'」相关文章';nr.style.display=(v===0&&q)?'':'none'}
+</script>
+<script>
+).textContent||'';c.style.display=(!q||t.toLowerCase().indexOf(q)>-1)?'':'none'});var v=document.querySelectorAll('.post-card:not([style*="display: none"])').length;if(!q)v=document.querySelectorAll('.post-card').length;var nr=document.getElementById('nores');if(!nr){nr=document.createElement('p');nr.id='nores';nr.style.cssText='text-align:center;color:#9CA3AF;padding:40px 0;font-size:.9em';document.querySelector('.post-list').after(nr)}nr.textContent='😅 没有找到「'+q+'」相关文章';nr.style.display=(v===0&&q)?'':'none'}
+</script>
+<script>
+function searchFilter(q){q=q.toLowerCase().trim();document.querySelectorAll('.post-card').forEach(function(c){var t=(c.querySelector('h3')||{}).textContent||'';c.style.display=(!q||t.toLowerCase().indexOf(q)>-1)?'':'none'});var v=document.querySelectorAll('.post-card:not([style*="display: none"])').length;if(!q)v=document.querySelectorAll('.post-card').length;var nr=document.getElementById('nores');if(!nr){nr=document.createElement('p');nr.id='nores';nr.style.cssText='text-align:center;color:#9CA3AF;padding:40px 0;font-size:.9em';document.querySelector('.post-list').after(nr)}nr.textContent='😅 没有找到「'+q+'」相关文章';nr.style.display=(v===0&&q)?'':'none';}
+</script>
 <footer>© 2026 思思好物 — 好物不迷路，思思来指路 ✨</footer>
 <script>
 (function(){
